@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-// test cmt
+// test cmt added
 	@GetMapping(value = "/get")
 	public String getTestData() {
 	
