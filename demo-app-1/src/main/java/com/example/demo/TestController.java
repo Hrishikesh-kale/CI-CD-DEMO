@@ -8,9 +8,10 @@ public class TestController {
 // test cmt
 	@GetMapping(value = "/get")
 	public String getTestData() {
-		exit();
+		// exit();
 		return "Hello from Spring Boot";
 	}
 }
+
 
 
