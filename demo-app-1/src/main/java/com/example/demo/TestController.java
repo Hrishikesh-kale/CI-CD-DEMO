@@ -5,13 +5,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-// test cmt
+// test cmt asdfgjl;
 	@GetMapping(value = "/get")
 	public String getTestData() {
 	
 		return "Hello from Spring Boot";
 	}
 }
+
 
 
 
