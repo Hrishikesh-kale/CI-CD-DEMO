@@ -27,7 +27,7 @@ jobs:
       - name: Basic compile check
         run: |
                 cd demo-app-1
-                mvn clean compile
+                mvn clean package
        # -----------------------------
       # Docker Section
       # -----------------------------
