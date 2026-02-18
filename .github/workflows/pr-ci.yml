@@ -19,7 +19,12 @@ jobs:
           java-version: 21
 
       - name: Build and test
-        run: mvn clean test
+        run: |
+                cd demo-app-1
+                mvn clean test
+                
 
       - name: Basic compile check
-        run: mvn clean compile
+        run: |
+                cd demo-app-1
+                mvn clean compile
